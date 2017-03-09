@@ -71,7 +71,7 @@ function completedItem(){
 
 
 	parent.removeChild(item);
-	target.insertBefore(item, target.childNodes[0]);
+	target.insertBefore(item, target.parentNodes[0]);
 }
 //function to check off as done from list
 
